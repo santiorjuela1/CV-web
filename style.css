@@ -1,0 +1,82 @@
+#pantalla-entera{
+  display: flex;
+  justify-content: start;
+  align-items: flex-start;
+  flex-direction: row;
+  height: auto;
+  font: 1em Arial, sans-serif;
+}
+body{
+  height: 100%;
+}
+
+#foto{
+  width: 80%;
+  height: 10%;
+}
+/* lateral izquierdo */
+#lateral-izq {
+  background-color: rgb(116, 116, 242);
+  height: 100%;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0px 20px 0px; /* Fixed padding syntax */
+  width: 20%;
+  overflow-y: overlay
+}
+
+.contacto{
+  width: 80%;
+  height: 100vh;
+  margin-inline: 2px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  
+}
+/* lateral izquierdo */
+
+/* main */
+#main-white{
+  width: 80%; 
+  background-color: white;
+}
+#parte-gris{
+  background-color: grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 5px;
+  padding: 20px;
+  height: 100px;
+}
+#parte-blanca{
+  padding: 20px;
+  background-color: rgb(231, 226, 226); ;
+}
+.titulo-fecha-exp{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+h2{
+  color: rgb(2, 2, 3);
+}
+h3{
+  color: rgb(2, 2, 3);
+}
+p{
+  margin: 5px;
+}
+.fecha{
+  color: rgb(2, 2, 3);
+  font-weight: bold;
+}
+
+/* main */
